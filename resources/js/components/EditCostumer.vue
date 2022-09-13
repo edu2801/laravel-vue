@@ -8,15 +8,16 @@
                         <label>Nome</label>
                         <input type="text" class="form-control" v-model="costumer.name">
                     </div>
-                    <div class="form-group">
+                    <div class="form-group mt-2">
                         <label>Email</label>
-                        <input type="text" class="form-control" v-model="costumer.email">
+                        <input type="email" class="form-control" v-model="costumer.email">
                     </div>
-                    <div class="form-group">
+                    <div class="form-group mt-2">
                         <label>Telefone</label>
-                        <input type="text" class="form-control" v-model="costumer.phone">
+                        <input type="text" class="form-control" v-mask="['(##) ####-####', '(##) #####-####']"
+                            v-model="costumer.phone">
                     </div>
-                    <button type="submit" class="btn btn-primary">Atualizar</button>
+                    <button type="submit" class="btn btn-primary mt-3">Atualizar</button>
                 </form>
             </div>
         </div>

@@ -7,6 +7,7 @@ import App from "./App.vue";
 import VueAxios from "vue-axios";
 import { createRouter, createWebHistory } from "vue-router";
 import axios from "axios";
+import VueTheMask from "vue-the-mask";
 
 const router = createRouter({
     history: createWebHistory(),
@@ -31,4 +32,5 @@ const router = createRouter({
 const app = createApp(App);
 app.use(router);
 app.use(VueAxios, axios);
+app.use(VueTheMask);
 app.mount("#app");
