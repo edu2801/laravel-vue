@@ -1,4 +1,4 @@
-# Projeto CRUD de clientes
+# Projeto Laravel - CRUD de clientes
 
 ### Meu passo-a-passo:
 1- Fui rever meu conhecimento em PHP (https://www.youtube.com/watch?v=BUCiSSyIGGU) <br>
